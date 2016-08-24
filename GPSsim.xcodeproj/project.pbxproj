@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185256631D5FCF9F00748053 /* mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 185256621D5FCF9F00748053 /* mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx */; };
+		185256651D5FD5D400748053 /* mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 185256641D5FD5D400748053 /* mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx */; };
+		187C5D101D5B0D9500CF1EE3 /* mapstogpx20160810_072136 - Gym-ayala-station.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 187C5D0F1D5B0D9500CF1EE3 /* mapstogpx20160810_072136 - Gym-ayala-station.gpx */; };
+		187C5D121D5B10BB00CF1EE3 /* mapstogpx20160810_073454 - Gym-stockexchange.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 187C5D111D5B10BB00CF1EE3 /* mapstogpx20160810_073454 - Gym-stockexchange.gpx */; };
+		1887F2D61D5840F20021B6F4 /* mapstogpx20160807_165723 - Path to Megashang.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1887F2CF1D5840F20021B6F4 /* mapstogpx20160807_165723 - Path to Megashang.gpx */; };
+		18E40A7C1D6DAC460070E7D2 /* mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 18E40A7B1D6DAC460070E7D2 /* mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx */; };
+		18E595331D6C21A00029D654 /* mapstogpx20160823_061542 - Path to Luneta Park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 18E595321D6C21A00029D654 /* mapstogpx20160823_061542 - Path to Luneta Park.gpx */; };
+		18F212141D564B160031E986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F212131D564B160031E986 /* main.m */; };
+		18F212171D564B160031E986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F212161D564B160031E986 /* AppDelegate.m */; };
+		18F2121A1D564B160031E986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F212191D564B160031E986 /* ViewController.m */; };
+		18F2121D1D564B160031E986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2121B1D564B160031E986 /* Main.storyboard */; };
+		18F2121F1D564B160031E986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2121E1D564B160031E986 /* Assets.xcassets */; };
+		18F212221D564B160031E986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F212201D564B160031E986 /* LaunchScreen.storyboard */; };
+		18F2122D1D564B170031E986 /* GPSsimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2122C1D564B170031E986 /* GPSsimTests.m */; };
+		18F212381D564B170031E986 /* GPSsimUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F212371D564B170031E986 /* GPSsimUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F212291D564B170031E986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F212071D564B160031E986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2120E1D564B160031E986;
+			remoteInfo = GPSsim;
+		};
+		18F212341D564B170031E986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F212071D564B160031E986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2120E1D564B160031E986;
+			remoteInfo = GPSsim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185256621D5FCF9F00748053 /* mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx"; sourceTree = "<group>"; };
+		185256641D5FD5D400748053 /* mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx"; sourceTree = "<group>"; };
+		187C5D0F1D5B0D9500CF1EE3 /* mapstogpx20160810_072136 - Gym-ayala-station.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160810_072136 - Gym-ayala-station.gpx"; sourceTree = "<group>"; };
+		187C5D111D5B10BB00CF1EE3 /* mapstogpx20160810_073454 - Gym-stockexchange.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160810_073454 - Gym-stockexchange.gpx"; sourceTree = "<group>"; };
+		1887F2CF1D5840F20021B6F4 /* mapstogpx20160807_165723 - Path to Megashang.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160807_165723 - Path to Megashang.gpx"; sourceTree = "<group>"; };
+		18E40A7B1D6DAC460070E7D2 /* mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx"; sourceTree = "<group>"; };
+		18E595321D6C21A00029D654 /* mapstogpx20160823_061542 - Path to Luneta Park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapstogpx20160823_061542 - Path to Luneta Park.gpx"; sourceTree = "<group>"; };
+		18F2120F1D564B160031E986 /* GPSsim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSsim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F212131D564B160031E986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F212151D564B160031E986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F212161D564B160031E986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F212181D564B160031E986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F212191D564B160031E986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F2121C1D564B160031E986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F2121E1D564B160031E986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F212211D564B160031E986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F212231D564B160031E986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F212281D564B170031E986 /* GPSsimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSsimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2122C1D564B170031E986 /* GPSsimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSsimTests.m; sourceTree = "<group>"; };
+		18F2122E1D564B170031E986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F212331D564B170031E986 /* GPSsimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSsimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F212371D564B170031E986 /* GPSsimUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSsimUITests.m; sourceTree = "<group>"; };
+		18F212391D564B170031E986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F2120C1D564B160031E986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F212251D564B170031E986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F212301D564B170031E986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1887F2C91D5840CF0021B6F4 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				18E595321D6C21A00029D654 /* mapstogpx20160823_061542 - Path to Luneta Park.gpx */,
+				18E40A7B1D6DAC460070E7D2 /* mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx */,
+				185256641D5FD5D400748053 /* mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx */,
+				185256621D5FCF9F00748053 /* mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx */,
+				187C5D111D5B10BB00CF1EE3 /* mapstogpx20160810_073454 - Gym-stockexchange.gpx */,
+				1887F2CF1D5840F20021B6F4 /* mapstogpx20160807_165723 - Path to Megashang.gpx */,
+				187C5D0F1D5B0D9500CF1EE3 /* mapstogpx20160810_072136 - Gym-ayala-station.gpx */,
+			);
+			name = GPX;
+			path = GPSsim;
+			sourceTree = "<group>";
+		};
+		18F212061D564B160031E986 = {
+			isa = PBXGroup;
+			children = (
+				1887F2C91D5840CF0021B6F4 /* GPX */,
+				18F212111D564B160031E986 /* GPSsim */,
+				18F2122B1D564B170031E986 /* GPSsimTests */,
+				18F212361D564B170031E986 /* GPSsimUITests */,
+				18F212101D564B160031E986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F212101D564B160031E986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F2120F1D564B160031E986 /* GPSsim.app */,
+				18F212281D564B170031E986 /* GPSsimTests.xctest */,
+				18F212331D564B170031E986 /* GPSsimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F212111D564B160031E986 /* GPSsim */ = {
+			isa = PBXGroup;
+			children = (
+				18F212151D564B160031E986 /* AppDelegate.h */,
+				18F212161D564B160031E986 /* AppDelegate.m */,
+				18F212181D564B160031E986 /* ViewController.h */,
+				18F212191D564B160031E986 /* ViewController.m */,
+				18F2121B1D564B160031E986 /* Main.storyboard */,
+				18F2121E1D564B160031E986 /* Assets.xcassets */,
+				18F212201D564B160031E986 /* LaunchScreen.storyboard */,
+				18F212231D564B160031E986 /* Info.plist */,
+				18F212121D564B160031E986 /* Supporting Files */,
+			);
+			path = GPSsim;
+			sourceTree = "<group>";
+		};
+		18F212121D564B160031E986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F212131D564B160031E986 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F2122B1D564B170031E986 /* GPSsimTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2122C1D564B170031E986 /* GPSsimTests.m */,
+				18F2122E1D564B170031E986 /* Info.plist */,
+			);
+			path = GPSsimTests;
+			sourceTree = "<group>";
+		};
+		18F212361D564B170031E986 /* GPSsimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F212371D564B170031E986 /* GPSsimUITests.m */,
+				18F212391D564B170031E986 /* Info.plist */,
+			);
+			path = GPSsimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F2120E1D564B160031E986 /* GPSsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2123C1D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsim" */;
+			buildPhases = (
+				18F2120B1D564B160031E986 /* Sources */,
+				18F2120C1D564B160031E986 /* Frameworks */,
+				18F2120D1D564B160031E986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSsim;
+			productName = GPSsim;
+			productReference = 18F2120F1D564B160031E986 /* GPSsim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F212271D564B170031E986 /* GPSsimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2123F1D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsimTests" */;
+			buildPhases = (
+				18F212241D564B170031E986 /* Sources */,
+				18F212251D564B170031E986 /* Frameworks */,
+				18F212261D564B170031E986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2122A1D564B170031E986 /* PBXTargetDependency */,
+			);
+			name = GPSsimTests;
+			productName = GPSsimTests;
+			productReference = 18F212281D564B170031E986 /* GPSsimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F212321D564B170031E986 /* GPSsimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F212421D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsimUITests" */;
+			buildPhases = (
+				18F2122F1D564B170031E986 /* Sources */,
+				18F212301D564B170031E986 /* Frameworks */,
+				18F212311D564B170031E986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F212351D564B170031E986 /* PBXTargetDependency */,
+			);
+			name = GPSsimUITests;
+			productName = GPSsimUITests;
+			productReference = 18F212331D564B170031E986 /* GPSsimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F212071D564B160031E986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ric;
+				TargetAttributes = {
+					18F2120E1D564B160031E986 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					18F212271D564B170031E986 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18F2120E1D564B160031E986;
+					};
+					18F212321D564B170031E986 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18F2120E1D564B160031E986;
+					};
+				};
+			};
+			buildConfigurationList = 18F2120A1D564B160031E986 /* Build configuration list for PBXProject "GPSsim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F212061D564B160031E986;
+			productRefGroup = 18F212101D564B160031E986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F2120E1D564B160031E986 /* GPSsim */,
+				18F212271D564B170031E986 /* GPSsimTests */,
+				18F212321D564B170031E986 /* GPSsimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F2120D1D564B160031E986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F212221D564B160031E986 /* LaunchScreen.storyboard in Resources */,
+				18E595331D6C21A00029D654 /* mapstogpx20160823_061542 - Path to Luneta Park.gpx in Resources */,
+				187C5D121D5B10BB00CF1EE3 /* mapstogpx20160810_073454 - Gym-stockexchange.gpx in Resources */,
+				185256651D5FD5D400748053 /* mapstogpx20160813_222444 - Path to edsa-shaw-park.gpx in Resources */,
+				185256631D5FCF9F00748053 /* mapstogpx20160813_215738 - Gym-edsa-shaw-3.gpx in Resources */,
+				187C5D101D5B0D9500CF1EE3 /* mapstogpx20160810_072136 - Gym-ayala-station.gpx in Resources */,
+				18F2121F1D564B160031E986 /* Assets.xcassets in Resources */,
+				1887F2D61D5840F20021B6F4 /* mapstogpx20160807_165723 - Path to Megashang.gpx in Resources */,
+				18E40A7C1D6DAC460070E7D2 /* mapstogpx20160823_061058 - Path to Greenbelt park walkways.gpx in Resources */,
+				18F2121D1D564B160031E986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F212261D564B170031E986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F212311D564B170031E986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F2120B1D564B160031E986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2121A1D564B160031E986 /* ViewController.m in Sources */,
+				18F212171D564B160031E986 /* AppDelegate.m in Sources */,
+				18F212141D564B160031E986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F212241D564B170031E986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2122D1D564B170031E986 /* GPSsimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2122F1D564B170031E986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F212381D564B170031E986 /* GPSsimUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F2122A1D564B170031E986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2120E1D564B160031E986 /* GPSsim */;
+			targetProxy = 18F212291D564B170031E986 /* PBXContainerItemProxy */;
+		};
+		18F212351D564B170031E986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2120E1D564B160031E986 /* GPSsim */;
+			targetProxy = 18F212341D564B170031E986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F2121B1D564B160031E986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2121C1D564B160031E986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F212201D564B160031E986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F212211D564B160031E986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F2123A1D564B170031E986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F2123B1D564B170031E986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2123D1D564B170031E986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSsim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F2123E1D564B170031E986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSsim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F212401D564B170031E986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPSsimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSsim.app/GPSsim";
+			};
+			name = Debug;
+		};
+		18F212411D564B170031E986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPSsimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSsim.app/GPSsim";
+			};
+			name = Release;
+		};
+		18F212431D564B170031E986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPSsimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPSsim;
+			};
+			name = Debug;
+		};
+		18F212441D564B170031E986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPSsimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPSsimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPSsim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F2120A1D564B160031E986 /* Build configuration list for PBXProject "GPSsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2123A1D564B170031E986 /* Debug */,
+				18F2123B1D564B170031E986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2123C1D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2123D1D564B170031E986 /* Debug */,
+				18F2123E1D564B170031E986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2123F1D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F212401D564B170031E986 /* Debug */,
+				18F212411D564B170031E986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F212421D564B170031E986 /* Build configuration list for PBXNativeTarget "GPSsimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F212431D564B170031E986 /* Debug */,
+				18F212441D564B170031E986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F212071D564B160031E986 /* Project object */;
+}
